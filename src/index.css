@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", sans-serif;
+  
+  --color-navy-dark: #07142A;
+  --color-navy: #0A1F44;
+  --color-navy-light: #122b5e;
+  --color-electric: #2E6FF2;
+  --color-electric-hover: #1D54D1;
+  --color-accent-cyan: #00E5FF;
+  --color-accent-yellow: #FACC15;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAFAFA;
+  color: #1F2937;
+  overflow-x: hidden;
+}
+
+/* Custom classes for Bubble Text shadow */
+.bubble-text {
+  font-family: var(--font-display);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.bubble-text-outline {
+  font-family: var(--font-display);
+  text-shadow: 
+    -1px -1px 0 #2E6FF2,  
+     1px -1px 0 #2E6FF2,
+    -1px  1px 0 #2E6FF2,
+     1px  1px 0 #2E6FF2,
+     3px  3px 0px rgba(10, 31, 68, 0.2);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07142A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2E6FF2;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-cyan);
+}

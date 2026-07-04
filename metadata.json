@@ -1,0 +1,6 @@
+{
+  "name": "The HubTalk",
+  "description": "Landing page responsif untuk penyewaan dan penjualan Handy Talky (HT) merk Baofeng untuk kebutuhan event, komunikasi lapangan, dan koordinasi tim.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
